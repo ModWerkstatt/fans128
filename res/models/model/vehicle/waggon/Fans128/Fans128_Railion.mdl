@@ -1,0 +1,672 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 5.8287, 1.5543934106827, 3.9691610336304, },
+		bbMin = { -5.8287, -1.5543934106827, -1.4061318635941, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 4.7661581039429, 1.5543934106827, 2.6876463890076, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/Fans128/Fans128_railion.mtl", },
+						mesh = "vehicle/waggon/Fans128/rumpf_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod0.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod0.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+					        },
+						},
+						name = "GRP_dg_ba_932_lod_0_1",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, -3.2820100784302, 0, 0, 1, },
+					},
+					{
+						children = {
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod0.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod0.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+					        },
+						},
+						name = "GRP_dg_ba_932_lod_0_1",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 3.2820100784302, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.08, -0.82, 1.355, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.08, 0.82, 1.355, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/Fans128/Fans128_railion.mtl", },
+						mesh = "vehicle/waggon/Fans128/rumpf_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod1.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod1.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+					        },
+						},
+						name = "GRP_dg_ba_932_lod_0_1",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, -3.2820100784302, 0, 0, 1, },
+					},
+					{
+						children = {
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod1.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod1.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+					        },
+						},
+						name = "GRP_dg_ba_932_lod_0_1",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 3.2820100784302, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 500,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/Fans128/Fans128_railion.mtl", },
+						mesh = "vehicle/waggon/Fans128/rumpf_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod2.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+					        },
+						},
+						name = "GRP_dg_ba_932_lod_0_1",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, -3.2820100784302, 0, 0, 1, },
+					},
+					{
+						children = {
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod2.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+					        },
+						},
+						name = "GRP_dg_ba_932_lod_0_1",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 3.2820100784302, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1996,
+			yearTo = 0,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("Fans128_railion_name"),
+			description = _("Fans128_desc"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 29220,
+			runningCostScale = 1,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			blinkInterval = 500,
+			configs = {
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh", },
+					backBackwardParts = { },
+					backForwardParts = { 12, 13, },
+				},
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh", },
+				},
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh", },
+				},
+			},
+			engines = { },
+			soundSet = {
+				horn = "",
+				name = "mw_schwer",
+			},
+			topSpeed = 33.333332061768,
+			weight = 29,
+		},
+		cargoSlotProvider = {
+			slots = {
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_coal_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_coal_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_coal_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_coal_4.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+                {
+					models = { "vehicle/waggon/Fans128/beladung/load_coal_1.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_coal_2.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_coal_3.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_coal_4.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_iron_ore_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_iron_ore_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_iron_ore_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_iron_ore_4.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_iron_ore_1.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_iron_ore_2.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_iron_ore_3.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_iron_ore_4.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_stone_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_stone_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_stone_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_stone_4.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_stone_1.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_stone_2.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_stone_3.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_stone_4.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_silver_ore_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_silver_ore_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_silver_ore_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_silver_ore_4.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				}, 
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_silver_ore_1.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_silver_ore_2.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_silver_ore_3.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_silver_ore_4.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				}, 
+
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_slag_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_slag_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_slag_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_slag_4.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_slag_1.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_slag_2.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_slag_3.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Fans128/beladung/load_slag_4.mdl", },
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+			},
+		},	 
+		transportVehicle = {
+			carrier = "RAIL",
+			compartmentsList = {
+				{
+					loadConfigs = {
+						{
+							cargoEntries = {
+								{
+									capacity = 40,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ },
+													{ 0, 4, },
+													{ 1, 5, },
+													{ 2, 6, },
+													{ 3, 7, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "COAL",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 40,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ },
+													{ 8, 12, },
+													{ 9, 13, },
+													{ 10, 14, },
+													{ 11, 15, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "IRON_ORE",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 40,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ },
+													{ 16, 20, },
+													{ 17, 21, },
+													{ 18, 22, },
+													{ 19, 23, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "STONE",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 40,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ },
+													{ 24, 28, },
+													{ 25, 29, },
+													{ 26, 30, },
+													{ 27, 31, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "SILVER_ORE",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 40,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ },
+													{ 32, 36, },
+													{ 33, 37, },
+													{ 34, 38, },
+													{ 35, 39, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "SLAG",
+								},
+							},
+							toHide = { },
+						},
+					},
+				},
+			},
+			groupFileName = "vehicle/waggon/Fans128/menu_Fans128.mdl",
+			loadSpeed = 2,
+			multipleUnitOnly = false,
+			reversible = false,
+		},
+	},
+	version = 1,
+}
+end
