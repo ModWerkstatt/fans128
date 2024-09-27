@@ -250,8 +250,8 @@ return {
 			yearTo = 0,
 		},
 		cost = {
-			price = -1,
-			priceScale = 1,
+			price = 0,
+			priceScale = 0,
 		},
 		description = {
 			name = _("Fans128_railion_name") .. _("fake"),
