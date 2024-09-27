@@ -294,7 +294,7 @@ return {
 				name = "mw_schwer",
 			},
 			topSpeed = 33.333332061768,
-			weight = 29,
+			weight = 83,
 		},
 		cargoSlotProvider = {
 			slots = {
@@ -591,8 +591,10 @@ return {
 					},
 				},
 			},
-			groupFileName = "vehicle/waggon/Fans128/fake/menu_Fans128_fake.mdl",
 			loadSpeed = 2,
+			maxVolume = 36,
+			maxWeight = 84,
+			groupFileName = "vehicle/waggon/Fans128/fake/menu_Fans128_fake.mdl",
 			multipleUnitOnly = false,
 			reversible = false,
 		},
