@@ -1,0 +1,30 @@
+{
+	"en": {
+		
+        "menu_fans128" : "Fans 128 Bogie bulk tipping wagon",
+		
+        "fake": "Fake - ",
+		
+        "fake_facs124" : "Enable Fake Versions?",
+        "tooltip_fake" : "Should the fake versions be available in the game?",
+		
+		"fans128_dbcargo_name" : "Fans 128 traffic red DB Cargo",
+        "fans128_railion_name" : "Fans 128 traffic red Railion DB Logistics",
+		"fans128_desc" : "The two-trough two-way box tipper is designed for transporting bulk goods that are not sensitive to moisture. Mostly, the fans 128 are used in block trains."
+
+	},
+	"de": {
+		
+        "menu_fans128" : "Fans 128 Drehgestell-Schüttgutkippwagen",
+		
+        "fake": "Fake - ",
+		
+        "fake_facs124" : "Fake-Versionen aktivieren?",
+        "tooltip_fake" : "Sollen die Fake-Versionen verfügbar sein im Spiel?",
+		
+		"fans128_dbcargo_name" : "Fans 128 verkehrsrot DB Cargo",
+        "fans128_railion_name" : "Fans 128 verkehrsrot Railion DB Logistics",
+		"fans128_desc" : "Der zweimuldige Zweiseiten-Kastenkipper ist für den Transport von feuchtigkeits-unempfindlichen Schüttgütern vorgesehen. Meist werden die Fans 128 in Ganzzügen eingesetzt."
+
+	}
+}
