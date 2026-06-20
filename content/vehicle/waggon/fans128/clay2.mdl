@@ -32,7 +32,7 @@ return {
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
 				visibleFrom = 0,
-				visibleTo = 150,
+				visibleTo = 200,
 			},
 			{ 
 				node = { 
@@ -53,7 +53,7 @@ return {
 					name = "RootNode",
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
-				visibleFrom = 300,
+				visibleFrom = 200,
 				visibleTo = 900,
 			},
 		},
